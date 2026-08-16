@@ -1,0 +1,3 @@
+export function AuthShell({ eyebrow, title, text, children }: { eyebrow: string; title: React.ReactNode; text: string; children: React.ReactNode }) {
+  return <main className="auth-page"><div className="auth-orb orb-one" /><div className="auth-orb orb-two" /><section className="auth-brand"><a href="/" className="auth-logo">popin<span>.</span></a><div><p>{eyebrow}</p><h1>{title}</h1><span>{text}</span></div><small>Real conversations. Better conversions.</small></section><section className="auth-panel"><div className="auth-card"><div className="auth-mobile-logo">popin<span>.</span></div>{children}</div></section></main>;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "popin-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "create-admin": "node --env-file=.env -r ts-node/register/transpile-only scripts/create-admin.ts"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "mongodb": "6.8.0",
+    "bcryptjs": "2.4.3",
+    "resend": "3.5.0",
+    "geoip-lite": "1.4.10"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/node": "20.14.15",
+    "@types/react": "18.3.3",
+    "@types/bcryptjs": "2.4.6",
+    "@types/geoip-lite": "1.4.4",
+    "ts-node": "10.9.2"
+  }
+}
