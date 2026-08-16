@@ -2,8 +2,8 @@ import "./globals.css";
 import { ThemeProvider } from "./ThemeProvider";
 
 export const metadata = {
-  title: "Popin",
-  description: "www.popin.to",
+  title: "Skillnode",
+  description: "Testing purpose",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
