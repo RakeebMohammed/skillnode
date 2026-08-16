@@ -59,9 +59,9 @@ export function VerifyForm() {
     <>
       <ThemeToggle />
       <AuthShell
-        eyebrow="STEP 2 OF 2"
-        title={<>Check your<br />inbox.</>}
-        text={`We sent a six-digit code to ${email || "your email address"}.`}
+        eyebrow="SKILLNODE · STEP 2 OF 2"
+        title={<>Verify your<br />access.</>}
+        text={`We sent a six-digit Skillnode code to ${email || "your email address"}.`}
       >
         <form onSubmit={handleSubmit} className="auth-form">
         <fieldset className="otp-fieldset">
@@ -91,7 +91,7 @@ export function VerifyForm() {
         </fieldset>
         {error && <p className="auth-error">{error}</p>}
         <button disabled={loading || otp.length !== 6} type="submit">
-          {loading ? "Verifying..." : "Unlock experience"}
+          {loading ? "Verifying..." : "Enter Skillnode"}
           <span>→</span>
         </button>
         <button
